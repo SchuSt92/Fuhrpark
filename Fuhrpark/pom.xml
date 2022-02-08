@@ -24,7 +24,7 @@
         <configuration>
           <archive>
             <manifest>
-              <addClasspath>true</addClasspath>
+              <addClasspath>Fuhrpark/src/main/java/FuhrparkApp</addClasspath>
               <mainClass>App.java</mainClass>
             </manifest>
           </archive>
