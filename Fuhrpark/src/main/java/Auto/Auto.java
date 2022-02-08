@@ -1,4 +1,4 @@
-package Fuhrpark.Fuhrpark;
+package Auto;
 
 public abstract class Auto {
 	
@@ -8,17 +8,17 @@ public abstract class Auto {
 	private String type;
 	private int kilometer;
 	
-	public Auto(String marke, int ps, String farbe, String type) {
+	public Auto(String marke, int ps, String farbe, String type, int kilometer) {
 		super();
 		this.marke = marke;
 		this.ps = ps;
 		this.farbe = farbe;
 		this.type = type;
+		this.kilometer = kilometer;
 	}
 	
-	public void addKilometer() {
-		
+	public void addKilometer(int newKilometer) {
+		this.kilometer += newKilometer;
 	}
 	
-
 }

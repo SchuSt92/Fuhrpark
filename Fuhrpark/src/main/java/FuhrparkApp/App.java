@@ -1,4 +1,4 @@
-package Fuhrpark.Fuhrpark;
+package FuhrparkApp;
 
 
 public class App 
