@@ -1,4 +1,4 @@
-package Auto;
+package Autos;
 
 public abstract class Auto {
 	

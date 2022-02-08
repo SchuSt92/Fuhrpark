@@ -1,4 +1,4 @@
-package Auto;
+package Autos;
 
 public class Audi extends Auto{
 	

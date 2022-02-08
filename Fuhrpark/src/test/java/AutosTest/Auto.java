@@ -1,4 +1,4 @@
-package AutoTest;
+package AutosTest;
 
 public abstract class Auto {
 	
