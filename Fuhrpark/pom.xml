@@ -16,7 +16,7 @@
       <maven.compiler.target>15</maven.compiler.target>
   </properties>
 
-  <build>
+<build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -24,17 +24,14 @@
         <configuration>
           <archive>
             <manifest>
-              <addClasspath>Fuhrpark/src/main/java/FuhrparkApp</addClasspath>
-              <mainClass>App.java</mainClass>
+              <addClasspath>true</addClasspath>
+              <mainClass>FuhrparkApp.App</mainClass>
             </manifest>
           </archive>
         </configuration>
-       
       </plugin>
     </plugins>
   </build>
-
-
 
   <dependencies>
     <dependency>
