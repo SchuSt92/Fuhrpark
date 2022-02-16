@@ -9,7 +9,6 @@ public class Audi extends Auto{
 		this.quattro = quattro;
 	}
 	
-	//Fehler eingebaut 1
+	//Audi erstellung
 	
-
 }
