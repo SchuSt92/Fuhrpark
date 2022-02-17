@@ -5,40 +5,5 @@
   <groupId>Fuhrpark</groupId>
   <artifactId>Fuhrpark</artifactId>
   <version>1.0.0</version>
-  <packaging>jar</packaging>
 
-  <name>Fuhrpark</name>
-  <url>http://maven.apache.org</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <maven.compiler.source>15</maven.compiler.source>
-      <maven.compiler.target>15</maven.compiler.target>
-  </properties>
-
-<build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <configuration>
-          <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-              <mainClass>FuhrparkApp.App</mainClass>
-            </manifest>
-          </archive>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 </project>
